@@ -6,7 +6,6 @@
   .subject1 { background-color:#F49484;  }  .subject2 { background-color:#F6E082;  } .subject3 { background-color:#B9F781;  } 
   .subject4 { background-color:#7FE2F9;   } .subject5 { background-color:#5C83B4;  } .subject6 { background-color:#F7B580;  } .subject7 { background-color:#F79FBE;  }
   th,td { width:80px; }
-  td,th { width:80px; }
 </style> <!-- border-collapse: collapse 단선으로, 반대는 separate -->
 <title>HTML5 시간표</title></head>
 <body>
@@ -15,6 +14,7 @@
 <caption>&lt;표 1&gt; 시간표</caption>
 <thead>
   <tr><th>시간</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th></tr></thead>
+  td,th { width:80px; }  
 <tbody>
   <tr><td>1교시</td><td rowspan="2" class="subject1">오토마타와응용</td><td></td><td></td><td></td><td></td></tr> 
   <tr><td>2교시</td><td></td><td class="subject3">마케팅</td><td class="subject1">오토마타와응용</td><td></td></tr> 
