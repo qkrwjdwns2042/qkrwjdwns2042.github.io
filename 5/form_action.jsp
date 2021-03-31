@@ -1,7 +1,3 @@
-<!doctype html> <!-- form_action.jsp -->
-<html>
-<head><meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <%@ page contentType="text/html; charset=utf-8" %>
 <html>
 <head><title>Request 인스턴스 표현</title>
