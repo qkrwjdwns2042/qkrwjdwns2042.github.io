@@ -1,0 +1,32 @@
+<!doctype html> <!-- formDateTime.html -->
+<html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>폼 학습</title></head>
+<body>
+<section>
+<form action="http://jsptogo.herokuapp.com/jspsrc/formSearch1.jsp"  method="post">
+<fieldset>
+<legend>약속 날짜 시간 입력</legend>
+   <label for="datex">날짜;</label>
+   <input type="date" id="datex" name="datex"/>
+   <label type="timex">시간</label>
+   <input type="time" name="times" name="timex"/>
+   <button type="submit">입력</button>
+   <input type="reset" name="reset1" value="취소"/>
+</fieldset>
+</form>
+</section> 
+</body></html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<% request.setCharacterEncoding("utf-8");%>
+<!doctype html> <!-- formDatetime1.jsp -->
+<html><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>폼 학습</title></head>
+<body>
+<section>
+ <h2>JSP form</h2>
+ <section>
+   <h2>날짜: <%=requset.getParameter("datex")%><br/></h2>
+   <h2>시간: <%=requset.getParameter("timex")%><br/></h2>
+ </section></section>
+ </body></html>
