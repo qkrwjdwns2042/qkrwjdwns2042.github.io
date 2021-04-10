@@ -1,0 +1,33 @@
+  
+<!doctype html> <!-- formSearch1.html -->
+<html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>폼 학습</title></head>
+<body>
+<section>
+<form action="http://jsptogo.herokuapp.com/jspsrc/formSearch1.jsp"  method="post">
+<fieldset>
+<legend>정보검색</legend>
+   <label for="searchx">검색단어;</label>
+   <input type="search" id="searchx" name="searchKeyword" placeholder="검색어 입력"/>
+   <button type="submit">조회</button>
+   <input type="reset" name="reset1" value="취소"/>
+</fieldset>
+</form>
+</section> 
+</body></html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<% request.setCharacterEncoding("utf-8");%>
+<!doctype html> <!-- formSearch.jsp -->
+<html><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>폼 학습</title></head>
+<body>
+<section>
+ <h2>JSP form</h2>
+ <section>
+  <h2>JSP form</h2>
+  <section>
+   <h2>서치입력어: <%=requset.getParameter("searchKeyword")%><br/></h2>
+ </section></section>
+ </body></html>
+
