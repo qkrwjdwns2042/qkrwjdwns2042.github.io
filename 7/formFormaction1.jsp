@@ -7,7 +7,7 @@
 <section>
  <h2>JSP form</h2>
  <section>
-  <h2>자동차로</h2>
+  <h2>자동차로</h2><br/>
   <h2><%=requset.getParameter("fromx")%>에서 <%=requset.getParameter("tox")%>까지<br/></h2>
  </section>
 </section>
