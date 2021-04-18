@@ -7,7 +7,7 @@
 <section>
  <h2>JSP form</h2>
  <section>
-   <h2>시간: <%=requset.getParameter("mealtime")%><br/></h2>
-   <h2>식사: <%=requset.getParameter("meal")%><br/></h2>
+   <h2>시간: <%=request.getParameter("mealtime")%><br/></h2>
+   <h2>식사: <%=request.getParameter("meal")%><br/></h2>
   </section></section></section>
  </body></html>
