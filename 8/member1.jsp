@@ -9,8 +9,7 @@
  aside ul {margin:0; padding:0;}
  aside ul li {display:block; margin:5px;}
 </style>
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<% request.setCharacterEncoding("utf-8"); %>
+
 <!doctype html> <!-- member1.jsp -->
 <html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
 <link rel="stylesheet" href="../css/sample.css"/>
