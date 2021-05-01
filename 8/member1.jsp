@@ -1,3 +1,14 @@
+<style>
+ header, nav, section, article, aside, footer
+ {border:1px solid gray; margin:5px; padding:8px; width:1000px;}
+ section {width:1000px; float:left; }
+ aside {width:221px; float:left; line-height:30px; }
+ footer {height:50px; clear:both; }
+ nav ul {margin:0; padding:0;}
+ nav ul li {display:inline; margin:5px;}
+ aside ul {margin:0; padding:0;}
+ aside ul li {display:block; margin:5px;}
+</style>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <% request.setCharacterEncoding("utf-8"); %>
 <!doctype html> <!-- member1.jsp -->
