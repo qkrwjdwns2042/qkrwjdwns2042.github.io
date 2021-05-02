@@ -1,12 +1,12 @@
 <style>
   header, nav, section, article, aside, footer
-  {border:1px solid gray; margin:5px; padding:8px; width:600px;}
+  {border:1px solid gray; margin:5px; padding:8px; width:700px;}
   header ul {margin:0; padding:0;}
   header ul li {display:inline; margin:5px;}
-  section {width:600px; float:left; }
+  section {width:700px; float:left; }
   section section {width:725px; float:left; }
   aside {width:221px; float:left; line-height:30px; }
-  footer {height:50px; clear:both; }
+  footer {width:680; height:50px; clear:both; }
   nav ul {margin:0; padding:0;}
   nav ul li {display:inline; margin:5px;}
   aside ul {margin:0; padding:0;}
