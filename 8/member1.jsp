@@ -1,21 +1,4 @@
-<style>
-  header, nav, section, article, aside, footer
-  {border:1px solid gray; margin:5px; padding:8px; width:700px;}
-  header ul {margin:0; padding:0;}
-  header ul li {display:inline; margin:5px;}
-  section {width:700px; float:left; }
-  section section {width:725px; float:left; }
-  aside {width:221px; float:left; line-height:30px; }
-  footer {width:680; height:50px; clear:both; }
-  nav ul {margin:0; padding:0;}
-  nav ul li {display:inline; margin:5px;}
-  aside ul {margin:0; padding:0;}
-  aside ul li {display:block; margin:5px;}
-  aside ul li img { width:50px; height:50px; }
-  a:link {  color:blue; background-color:transparent; text-decoration:none; }
-  a:active {  color:blue; background-color:transparent; text-decoration:none; }
-  </style>
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<% @ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <% request.setCharacterEncoding("utf-8"); %>
 <!doctype html> <!-- member1.jsp -->
 <html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -37,3 +20,20 @@
    <%=request.getParameter("sPhone")%></div>
    <div id="div4">
    <footer><p>&copy; 20XX Made by Korea. All rights reserved.</p></footer></body></html>
+  <style>
+  header, nav, section, article, aside, footer
+  {border:1px solid gray; margin:5px; padding:8px; width:700px;}
+  header ul {margin:0; padding:0;}
+  header ul li {display:inline; margin:5px;}
+  section {width:700px; float:left; }
+  section section {width:725px; float:left; }
+  aside {width:221px; float:left; line-height:30px; }
+  footer {width:680; height:50px; clear:both; }
+  nav ul {margin:0; padding:0;}
+  nav ul li {display:inline; margin:5px;}
+  aside ul {margin:0; padding:0;}
+  aside ul li {display:block; margin:5px;}
+  aside ul li img { width:50px; height:50px; }
+  a:link {  color:blue; background-color:transparent; text-decoration:none; }
+  a:active {  color:blue; background-color:transparent; text-decoration:none; }
+  </style>
